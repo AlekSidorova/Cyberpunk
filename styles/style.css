@@ -1,0 +1,20 @@
+/* верста с большого экрана */
+
+.header {
+  height: max(100vh, 1000px);
+  padding: 0 320px;
+  background-image: url(../images/Desktop_1920/cover_3.jpg);
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  background-size: contain;
+}
+
+.header__menu__logo {
+  inline-size: 296px;
+  block-size: auto;
+}
+
+.header__social {
+  inline-size: 30px;
+  block-size: auto;
+}
