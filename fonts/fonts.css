@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Archangelsk;
+  src: url(./ofont.ru_Archangelsk.ttf) format('ttf');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./ofont.ru_Roboto.ttf) format('ttf');
+  font-weight: bold;
+  font-display: swap;
+}
