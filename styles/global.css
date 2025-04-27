@@ -44,3 +44,8 @@ a {
   text-decoration: none;
   color: #777;
 }
+
+ul, 
+ol {
+  list-style-type: none;
+}

@@ -5,8 +5,18 @@
   padding: 0 320px;
   background-image: url(../images/Desktop_1920/cover_3.jpg);
   background-repeat: no-repeat;
-  background-position: center 100%;
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template: min-content 1fr min-content / 1fr 1fr;
+}
+
+.header__menu {
+  padding-block-start: 20px;
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__menu__logo {
@@ -14,7 +24,27 @@
   block-size: auto;
 }
 
-.header__social {
+.header__menu__icon {
+  display: flex;
+  gap: 40px;
+}
+
+.header__menu__icon-social {
   inline-size: 30px;
   block-size: auto;
 }
+
+.header__box {      /* желтый бокс с углами */
+  width: 624px;
+  height: 369px;
+  background-color: #F8F200;
+}
+
+.header__box-corners {      /* сами углы */
+  background: 
+    linear-gradient(135deg, transparent 45px, #F8F200 0) top left,
+    linear-gradient(-45deg, transparent 45px, #F8F200 0) bottom left;
+  background-size: 100% 51%;
+  background-repeat: no-repeat;
+}
+
