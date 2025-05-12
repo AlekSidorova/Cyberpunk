@@ -3,7 +3,7 @@
 .header {
   height: max(100vh, 1000px);
   padding: 0 320px;
-  background-image: url(../images/Desktop_1920/cover_3.jpg);
+  background-image: url(/images/Desktop_1920/cover_3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -54,7 +54,6 @@
 .title {
   font-family: Archangelsk, sans-serif;
   font-size: 62px;
-  color: #000;
 }
 
 .header__box-title {
@@ -69,4 +68,42 @@
   line-height: 167%;
   background-color: #000;
   margin: 0 70px;
+}
+
+.page {
+  padding: 0 320px;
+}
+
+.about__title {
+  font-family: Archangelsk, sans-serif;
+  font-size: 62px;
+  padding-block-start: 70px;
+}
+
+.about__text {
+  padding: 25px 0 59px;
+  max-inline-size: 952px;
+  color: #777;
+  line-height: 189%;
+}
+
+.about__text__accent {
+  font-weight: 700;
+  color: #52bedc;
+}
+
+.about__img {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr;
+  row-gap: 26px;
+}
+
+.about__img__list {
+  max-inline-size: 460px;
+  block-size: auto;
+}
+
+.about__img__list__city {
+  grid-column: 2;
+  grid-row: 1 / span 2;
 }

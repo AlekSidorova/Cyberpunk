@@ -7,9 +7,9 @@
 body {
   margin: 0 auto;
   font-family: Roboto, sans-serif;
-  background-color: #373737;
-
-  font-size: 16px;
+  background-color: #fff;
+  color: black;
+  font-size: 18px;
   min-inline-size: 320px;
   max-inline-size: 1920px;
 }
