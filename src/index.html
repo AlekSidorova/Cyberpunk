@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="../styles/style.css" />
     <meta name="color-scheme" content="dark light" />
   </head>
+
   <body>
     <header class="header">
       <nav class="header__menu">
@@ -147,73 +148,126 @@
           </p>
 
           <div class="play-win__content__form-img">
-          <!-- форма с кнопками -->
-          <form>
-            <div class="play-win__content__form">
-              <label for="name">
-                <input
-                  type="text"
-                  id="name"
-                  placeholder="Как тебя зовут?"
-                  required
-                  class="play-win__content__form__text-email"
-                />
-              </label>
+            <!-- форма с кнопками -->
+            <form>
+              <div class="play-win__content__form">
+                <label for="name">
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Как тебя зовут?"
+                    required
+                    class="play-win__content__form__text-email"
+                  />
+                </label>
 
-              <label for="email">
-                <input
-                  type="email"
-                  id="email"
-                  placeholder="Твой е-mail"
-                  required
-                  class="play-win__content__form__text-email"
-                />
-              </label>
+                <label for="email">
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Твой е-mail"
+                    required
+                    class="play-win__content__form__text-email"
+                  />
+                </label>
 
-              <div class="play-win__content__form__img">
-                <label for="screenshot-upload">
-                  <div class="play-win__content__form__img__main">
-                    <div class="play-win__content__form__img__main__title">
-                      Прикрепить скриншот
+                <div class="play-win__content__form__img">
+                  <label for="screenshot-upload">
+                    <div class="play-win__content__form__img__main">
+                      <div class="play-win__content__form__img__main__title">
+                        Прикрепить скриншот
+                      </div>
+                      <div class="play-win__content__form__img__main__format">
+                        .png / .jpg / .pdf
+                      </div>
                     </div>
-                    <div class="play-win__content__form__img__main__format">
-                      .png / .jpg / .pdf
-                    </div>
-                  </div></label
+                  </label>
+                  <input
+                    type="file"
+                    id="screenshot-upload"
+                    accept=".png, .jpg, .pdf"
+                    class="visually-hidden"
+                    required
+                  />
+                </div>
+
+                <a
+                  href="#0"
+                  class="button__link play-win__content__form-button"
+                  target="_blank"
+                  >Отправить</a
                 >
-                <input
-                  type="file"
-                  id="screenshot-upload"
-                  accept=".png, .jpg, .pdf"
-                  class="visually-hidden"
-                  required
-                />
               </div>
 
-              <a
-                href="#0"
-                class="button__link play-win__content__form-button"
-                target="_blank"
-                >Отправить</a
+              <div class="play-win__content__form__checkbox">
+                <label class="play-win__content__form__checkbox__label">
+                  <input
+                    type="checkbox"
+                    class="play-win__content__form__checkbox__input"
+                    required
+                  />
+                  Согласен на обработку персональных данных
+                </label>
+              </div>
+            </form>
+
+            <img
+              src="/images/xbox_sony.png"
+              alt="Xbox Series X и Sony PlayStation 5!"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="hp">
+        <div class="hp__content">
+          <div class="hp__content__img">
+            <img
+              src="/images/monitor.png"
+              alt="Монитор с девушкой крупным планом"
+              class="hp__content__img__monitor"
+            />
+
+            <img
+              src="/images/logo_and_HP.svg"
+              alt="Логотип игры и логотип HP"
+              class="hp__content__img__logo-hp"
+            />
+          </div>
+
+          <div class="hp__content__text">
+            <h2 class="main_title">Полное погружение вместе с HP</h2>
+
+            <p class="hp__content__text__main">
+              Погрузись в современные экшен-игры с реалистичным изображением с
+              помощью монитора с диагональю 23,8 дюйма, созданном для
+              отображения максимально насыщенных цветов. Успевай реагировать на
+              любые события с временем отклика 1 мс и частотой в 144 Гц!
+            </p>
+
+            <ul class="hp__content__text__list">
+              <li
+                class="hp__content__text__list-item marker list-item__palitra"
               >
-            </div>
+                Яркие насыщенные цвета
+              </li>
+              <li
+                class="hp__content__text__list-item marker list-item__star"
+              >
+                Кристальная четкость изображения
+              </li>
+              <li
+                class="hp__content__text__list-item marker list-item__layers"
+              >
+                Быстрые движения и плавный геймплей
+              </li>
+            </ul>
 
-            <div class="play-win__content__form__checkbox">
-              <label class="play-win__content__form__checkbox__label">
-                <input
-                  type="checkbox"
-                  class="play-win__content__form__checkbox__input"
-                  required
-                />
-                Согласен на обработку персональных данных
-              </label>
-            </div>
-          </form>
-
-          <img 
-            src="/images/xbox_sony.png" 
-            alt="Xbox Series X и Sony PlayStation 5!"
-            class-
+            <a 
+              href="#0" 
+              class="button__link hp__content__text__button" 
+              target="_blank">Подробнее</a>
+         
           </div>
         </div>
       </section>

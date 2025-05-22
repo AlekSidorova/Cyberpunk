@@ -155,7 +155,6 @@
   display: flex;
   flex-direction: column;
   gap: 35px;
-  /* padding-block-start: 121px; /* потом убрать */ */
   font-weight: 300;
 }
 
@@ -233,4 +232,83 @@
 .play-win__content__form__checkbox__input:checked::after{
   width: 15px;
   height: 15px;
+}
+
+
+.hp {
+  background-color: #F8F200;
+  background-image: url(/images/yellow_grd.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.hp__content {
+  padding: 130px 320px 72px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.hp__content__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+
+.hp__content__img__monitor {
+  max-inline-size: 624px;
+  block-size: auto;
+}
+
+.hp__content__img__logo-hp {
+  max-inline-size: 540px;
+  block-size: auto;
+}
+
+.hp__content__text__main {
+  line-height: 189%;
+  padding-block: 25px 20px;
+}
+
+.hp__content__text__list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-block-end: 59px;
+}
+
+.hp__content__text__list-item {
+  position: relative;
+  padding-inline-start: 42px;
+}
+
+ .marker::before {
+  content: '';
+  position: absolute;
+  left: 0; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  width: 32px; 
+  height: 32px; 
+  background-size: cover; 
+}
+
+.list-item__palitra::before {
+  background-image: url(/images/palitra.svg); 
+}
+
+.list-item__star::before {
+  background-image: url(/images/star.svg); 
+}
+
+.list-item__layers::before {
+  background-image: url(/images/layers.svg); 
+}
+
+.hp__content__text__button {
+  padding: 19px 50px;
+  color: #f8f200;
+  background-color: #000;
+  max-inline-size: 194px;
 }
