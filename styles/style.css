@@ -395,3 +395,50 @@
   inline-size: 168px;
   block-size: auto;
 }
+
+.footer {
+  display: grid;
+  grid-template-rows: 1fr 35%;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 320px 8px;
+}
+
+.footer__content__logo {
+  display: flex;
+  gap: 32px;
+}
+
+.footer__content__logo__cyberpunk {
+  inline-size: 296px;
+  block-size: auto;
+}
+
+.footer__content__logo__cd-red {
+  inline-size: 172px;
+  block-size: auto;
+}
+
+.footer__content__link {
+  display: flex;
+  gap: 36px;
+}
+
+.footer__content__link__color {
+  color: #000;
+}
+
+.footer__copyright {
+  background-color: #000;
+}
+
+.footer__copyright__text {
+  padding-block-start: 13px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
