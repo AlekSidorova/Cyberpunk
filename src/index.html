@@ -20,6 +20,7 @@
       href="../images/icons8-cyberpunk-cute-clipart-96.png"
     />
     <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/adaptive.css" />
     <meta name="color-scheme" content="dark light" />
   </head>
 
@@ -118,6 +119,7 @@
 
           <li class="about__img__list__city">
             <img
+              class="img__city"
               src="/images/Rectangle_61.png"
               alt="Вид с птичьего полета на весь город из высоток ночью"
             />
@@ -211,10 +213,19 @@
               </div>
             </form>
 
-            <img
-              src="/images/xbox_sony.png"
-              alt="Xbox Series X и Sony PlayStation 5!"
-            />
+            <div class="play-win__content_img__main-photo">
+              <img
+                src="/images/xbox.png"
+                alt="Xbox Series X и Sony PlayStation 5!"
+                class="play-win__content_img__photo"
+              />
+
+              <img
+                src="/images/sony.png"
+                alt="Xbox Series X и Sony PlayStation 5!"
+                class="play-win__content_img__photo play-win__content_img__photo-playstation"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -365,5 +376,7 @@
         </p>
       </div>
     </footer>
+
+    <script src="/script/index.js"></script>
   </body>
 </html>

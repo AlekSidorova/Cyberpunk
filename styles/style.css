@@ -10,6 +10,7 @@
   background-position: center;
   background-size: cover;
   grid-template: min-content 1fr min-content / 1fr 1fr;
+  transition: background-image 1s ease-in-out;
 }
 
 .header__menu {
@@ -63,6 +64,7 @@
 .button__link {
   font-weight: 700;
   line-height: 167%;
+  transition: background-color 0.2s ease;
 }
 
 .header__link {
@@ -71,6 +73,10 @@
   color: #f8f200;
   font-size: 24px;
   background-color: #000;
+}
+
+.button__link:hover {
+  background-color: #52bedc;
 }
 
 .about {
@@ -106,9 +112,16 @@
   padding-block-end: 70px;
 }
 
+.about__img__list {
+  inline-size: 460px;
+  block-size: auto;
+}
+
 .about__img__list__city {
   grid-column: 2;
   grid-row: 1 / span 2;
+  inline-size: 788px;
+  block-size: auto;
 }
 
 .play-win {
@@ -138,7 +151,7 @@
 }
 
 .play-win__content__text {
-  padding-block-start: 25px;
+  padding-block-start: 27px;
   color: #fff;
   line-height: 189%;
   max-inline-size: 952px;
@@ -149,6 +162,18 @@
   align-items: flex-end;
   gap: 32px;
   padding-block-start: 51px;
+}
+
+.play-win__content_img__main-photo {
+  display: flex;
+}
+
+.play-win__content_img__photo {
+  inline-size: 460px;
+}
+
+.play-win__content_img__photo-playstation {
+  margin-inline-start: -132px;
 }
 
 .play-win__content__form {

@@ -1,0 +1,71 @@
+@media (max-width: 1024px) {
+  .header {
+    padding: 0 36px;
+  }
+
+  .about {
+    padding: 0 36px;
+  }
+
+ .about__title {
+    max-inline-size: 620px;
+  }
+
+  .about__text {
+    max-inline-size: 788px;
+  }
+
+  .about__img {
+    gap: 26px;
+  }
+
+  .about__img__list__city {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+
+  .img__city {
+    inline-size: 952px;
+    block-size: 424px;
+  }
+  
+  .play-win__content {
+    padding: 80px 36px;
+
+
+  }
+
+  .play-win__content__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+  }
+
+  .play-win__content__header__title {
+    padding-block-start: 0;
+    max-inline-size: 460px;
+  }
+
+  .play-win__content__text {
+    max-inline-size: 460px;
+;
+  }
+
+  .play-win__content__form-img {
+    padding-block-start: 16px;
+  }
+
+  .play-win__content__form {
+
+  }
+
+  .play-win__content_img__main-photo {
+    flex-direction: column;
+ 
+  }
+
+  .play-win__content_img__photo-playstation {
+    margin-inline-start: 0;
+  }
+}
